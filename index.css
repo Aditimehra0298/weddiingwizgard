@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 35 60% 72%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 60 4.8% 95.9%;
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 60 4.8% 95.9%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+
+  /* Wedding theme colors */
+  --gold: 35 60% 72%;
+  --blush: 0 42% 84%;
+  --sage: 91 21% 70%;
+  --ivory: 36 36% 96%;
+  --charcoal: 0 0% 24%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 35 60% 72%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-ivory text-charcoal;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-sans {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-script {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .section-heading {
+    @apply font-serif;
+  }
+
+  .script-text {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .bg-gold {
+    @apply bg-[#D4B098];
+  }
+
+  .text-gold {
+    @apply text-[#D4B098];
+  }
+
+  .border-gold {
+    @apply border-[#D4B098];
+  }
+
+  .bg-blush {
+    @apply bg-[#E8C4C4];
+  }
+
+  .text-blush {
+    @apply text-[#E8C4C4];
+  }
+
+  .border-blush {
+    @apply border-[#E8C4C4];
+  }
+
+  .bg-sage {
+    @apply bg-[#A8C69F];
+  }
+
+  .text-sage {
+    @apply text-[#A8C69F];
+  }
+
+  .border-sage {
+    @apply border-[#A8C69F];
+  }
+
+  .bg-ivory {
+    @apply bg-[#F9F5F0];
+  }
+
+  .text-ivory {
+    @apply text-[#F9F5F0];
+  }
+
+  .border-ivory {
+    @apply border-[#F9F5F0];
+  }
+
+  .bg-charcoal {
+    @apply bg-[#3D3D3D];
+  }
+
+  .text-charcoal {
+    @apply text-[#3D3D3D];
+  }
+
+  .border-charcoal {
+    @apply border-[#3D3D3D];
+  }
+
+  .hero-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  }
+
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+}

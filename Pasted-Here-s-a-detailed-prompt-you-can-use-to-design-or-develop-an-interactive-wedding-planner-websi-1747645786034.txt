@@ -1,0 +1,110 @@
+Here's a **detailed prompt** you can use to design or develop an **interactive wedding planner website** that includes **catering, photography, and decoration** services, with **collaborative package deals** based on varying budgets. This prompt is suitable for developers, designers, or even to feed into a website builder or generative tool:
+
+---
+
+### 🔮 Prompt for Wedding Planner Website Design & Development
+
+**Title:**
+*Interactive Wedding Planner Website with Customizable Packages for Catering, Photography & Decoration*
+
+---
+
+**Objective:**
+Design a fully interactive and user-friendly wedding planner website that allows couples to **plan and customize their wedding** by selecting from a range of **services (catering, photography, and decoration)** bundled into **packages that vary by budget**. The goal is to make wedding planning seamless, engaging, and transparent with real-time cost visualization and personalized options.
+
+---
+
+### 🎯 Key Features to Include:
+
+#### 1. **Homepage**
+
+* Engaging hero section with a romantic theme (pastel tones, florals, subtle animations).
+* CTA buttons: "Plan My Wedding", "Explore Packages", "Contact Us".
+* Testimonial carousel from happy couples.
+* Highlights of featured weddings with photos.
+
+#### 2. **Interactive Budget Planner**
+
+* A slider or input for the **user’s budget** (e.g., ₹50,000 to ₹10,00,000+).
+* Real-time updates to suggested packages based on selected budget.
+* Allow users to tweak allocation (e.g., 40% catering, 30% decoration, 30% photography).
+
+#### 3. **Package Customization Flow**
+
+* Break into steps:
+
+  * **Step 1**: Choose your **Catering Theme** (e.g., Traditional, Fusion, Continental, Vegan).
+  * **Step 2**: Choose **Photography Style** (e.g., Candid, Cinematic, Drone Shoots).
+  * **Step 3**: Choose **Decoration Style** (e.g., Minimalist, Royal, Boho, Floral).
+* Each step shows real-time visuals, add-on options, and pricing updates.
+* "Compare Packages" feature with highlights and differences.
+
+#### 4. **Collaboration & Bundled Offers**
+
+* Show collaborative packages:
+
+  * **Silver**, **Gold**, **Platinum** tiers.
+  * Each includes vendor names, sample photos, pricing, and included services.
+  * Bundle discounts for selecting all three services.
+
+#### 5. **Vendor Pages**
+
+* Profiles for caterers, photographers, and decorators.
+* Portfolios, reviews, previous weddings, pricing tiers.
+* Availability calendar and booking options.
+
+#### 6. **AI Wedding Assistant (Optional)**
+
+* Chatbot that helps couples plan based on preferences.
+* Suggests vendors and packages after a quick Q\&A.
+
+#### 7. **Interactive Venue Mapping**
+
+* Embedded map showing nearby venues.
+* Integration with vendor availability per venue.
+* Users can filter by guest capacity, indoor/outdoor, location.
+
+#### 8. **User Dashboard (Post Sign-up)**
+
+* Save preferred packages.
+* Payment tracking.
+* Event day countdown.
+* Schedule meetings with vendors.
+
+#### 9. **Offers & Promotions**
+
+* "This Month's Specials" section.
+* Flash deals, early-bird booking discounts, or referral bonuses.
+* Option for vendors to run their own limited-time deals.
+
+---
+
+### 🧩 Tech Suggestions
+
+* **Frontend**: React / Vue.js with Framer Motion for animations.
+* **Backend**: Node.js + Express or Django with a PostgreSQL database.
+* **Interactive Tools**: D3.js or Chart.js for budget visualizations.
+* **Chatbot**: OpenAI API or Dialogflow for basic planning queries.
+* **Admin Panel**: For vendors to manage listings, calendars, and deals.
+* **Payment Gateway**: Stripe, Razorpay, or PayPal.
+
+---
+
+### 💡 User Personas to Design For:
+
+* **Bride/Groom**: Wants everything perfect and visually aesthetic.
+* **Parents**: Looking for value for money and reliability.
+* **Wedding Planners**: May use the tool to propose packages to clients.
+
+---
+
+### 🎨 Style Guide
+
+* Color Palette: Soft pinks, golds, ivory, sage green.
+* Fonts: Elegant serif + modern sans-serif combination.
+* Icons: Minimal and romantic (ring, heart, bouquet, camera).
+* Animations: Subtle fade-ins, interactive hover effects, package transitions.
+
+---
+
+Would you like a wireframe mockup or a sample component (e.g., budget planner slider or package card)?
